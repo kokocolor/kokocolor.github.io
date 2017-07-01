@@ -95,5 +95,5 @@ google:
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_language_keywords: [javascript,reactjs,vuejs,angularjs,jquery,nodejs,express,koa,webpack,gulp,grunt]
-skill_web_app_keywords: [less,scss,cssnext,webAssembly,aaencode,jjencode,asm.js]
+skill_language_keywords: [javascript, reactjs, vuejs, angularjs, jquery, nodejs, express, koa, webpack, gulp, grunt]
+skill_web_app_keywords: [less, scss, cssnext, webAssembly, aaencode, jjencode, asm.js]
