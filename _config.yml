@@ -1,0 +1,99 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://kokocolor.github.io/
+date_format: "ordinal"
+title: 李故乡github博客
+subtitle: "时间旅行者，生活的化妆师，相信越努力越幸运！"
+description: "李故乡的个人博客"
+keywords: 李故乡
+favicon: /favicon.ico
+timezone: Asia/BeiJing
+encoding: "utf-8"
+source_code: https://github.com/kokocolor/kokocolor.github.io
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: 李故乡
+organization: colorsjs
+organization_url: http://www.colorsjs.com/
+location: BeiJing, China
+email: 2568936548@qq.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+  -
+    href: /about/
+    label: 关于我
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+# ---------------- #
+#      Socials     #
+# ---------------- #
+github_username: kokocolor
+facebook_username: kokocolor
+weibo_username: kokocolor
+zhihu_username: 李故乡
+twitter_username: kokocolor
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, changyan
+comments_provider: disqus
+# !!!重要!!! 请修改下面用户名为你自己申请的
+disqus_username: kokocolor-github-io
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-82434482-1
+
+# ---------------- #
+#      Datas       #
+# ---------------- #
+skill_language_keywords: [Java, Scala, C Sharp, Python]
+skill_web_app_keywords: [javaEE, Spring ,Spring MVC ,JPA , Hibernate , MyBatis, Shiro ,Redis ,Spring Data ,MySql ,ASP.NET ,ASP.NET MVC,Entity Framework]
