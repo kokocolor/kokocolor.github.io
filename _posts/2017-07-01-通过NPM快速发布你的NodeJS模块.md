@@ -6,7 +6,7 @@ description:通过NPM快速发布你的NodeJS模块
 ---
 
 # 通过NPM快速发布你的NodeJS模块（组件包）
-1、更新 NPM - [ npm install -g npm | 该步骤可选；最好使用新版本]
+#1、更新 NPM - [ npm install -g npm | 该步骤可选；最好使用新版本]
 
 楼主当前版本号 2.6.1 ，如果更新报错，可以尝试 国内淘宝镜像
 
@@ -19,13 +19,13 @@ $ npm install -g cnpm --registry=https://registry.npm.taobao.org
 $ cnpm install npm -g
 发布模块之前 记得 把镜像地址注册回 npmjs
 npm config set registry http://registry.npmjs.org
-2、建立一个自己的项目 - [ npm init ]
+#2、建立一个自己的项目 - [ npm init ]
 
 这个此处略过，可参考： NodeJS实战：Express+Mongoose+ejs
 包括如何初始化项目 package.json 最好再添加一份 README.md
 楼主以一次小练习为例：GitHub 库地址 : nodejs-exercise
 
-3、注册 npm 账号 - [ npm adduser ]
+#3、注册 npm 账号 - [ npm adduser ]
 
 最好 Github 也注册一个账号
 
@@ -36,7 +36,7 @@ Password:
 Email: (this IS public) 
 登陆账号
 npm login  
-4、发布模块（组件包）- [ npm publish ]
+#4、发布模块（组件包）- [ npm publish ]
 
 $ cd firstblood
 $ npm publish  
@@ -53,7 +53,7 @@ $ npm publish
 NPM
 NPM
 
-5、安装测试自己发布的模块
+#5、安装测试自己发布的模块
 
 $ npm install firstblood && cd node_modules/firstblood
 $ npm install && node app
