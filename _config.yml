@@ -4,8 +4,8 @@
 baseurl:
 url: https://kokocolor.github.io/
 date_format: "ordinal"
-title: 李故乡github博客
-subtitle: "时间旅行者，生活的化妆师，相信越努力越幸运！"
+title: 李故乡github技术博客
+subtitle: "web前端热爱者，相信越努力越幸运！"
 description: "李故乡的个人博客"
 keywords: 李故乡
 favicon: /favicon.ico
