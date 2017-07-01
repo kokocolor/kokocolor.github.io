@@ -84,7 +84,7 @@ twitter_username: kokocolor
 # support provider: disqus, changyan
 comments_provider: disqus
 # !!!重要!!! 请修改下面用户名为你自己申请的
-disqus_username: kokocolor-github-io
+disqus_username:
 
 # ---------------- #
 #    Analytics     #
@@ -95,5 +95,5 @@ google:
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_language_keywords: [Java, Scala, C Sharp, Python]
-skill_web_app_keywords: [javaEE, Spring ,Spring MVC ,JPA , Hibernate , MyBatis, Shiro ,Redis ,Spring Data ,MySql ,ASP.NET ,ASP.NET MVC,Entity Framework]
+skill_language_keywords: [javascript,reactjs,vuejs,angularjs,jquery,nodejs,express,koa,webpack,gulp,grunt]
+skill_web_app_keywords: [less,scss,cssnext,webAssembly,aaencode,jjencode,asm.js]
