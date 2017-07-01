@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 通过NPM快速发布你的NodeJS模块
-categories: Maven
+categories: nodejs
 description: 通过NPM快速发布你的NodeJS模块
 ---
 
