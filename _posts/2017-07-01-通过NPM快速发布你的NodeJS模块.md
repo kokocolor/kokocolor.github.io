@@ -13,11 +13,11 @@ description:通过NPM快速发布你的NodeJS模块
 $ npm -v
 2.6.1
 
-//用淘宝镜像升级 npm 楼主版本号是 2.0.1 查看指令：$ cnpm -v 
+用淘宝镜像升级 npm 楼主版本号是 2.0.1 查看指令：$ cnpm -v 
 $ npm install -g cnpm --registry=https://registry.npm.taobao.org
-//再用镜像升级 npm
+再用镜像升级 npm
 $ cnpm install npm -g
-//发布模块之前 记得 把镜像地址注册回 npmjs
+发布模块之前 记得 把镜像地址注册回 npmjs
 npm config set registry http://registry.npmjs.org
 2、建立一个自己的项目 - [ npm init ]
 
@@ -29,12 +29,12 @@ npm config set registry http://registry.npmjs.org
 
 最好 Github 也注册一个账号
 
-//再本地添加
+再本地添加
 $ npm adduser
 Username: 
 Password:
 Email: (this IS public) 
-//登陆账号
+登陆账号
 npm login  
 4、发布模块（组件包）- [ npm publish ]
 
