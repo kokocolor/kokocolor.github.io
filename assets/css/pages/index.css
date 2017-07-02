@@ -1,7 +1,12 @@
-.home .banner,
+
 .home .site-header {
     background: #4183c4;
     color: #fff
+}
+.banner{
+  background: url('../../images/woo.jpg')no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
 }
 
 .home .banner .collection-head {
