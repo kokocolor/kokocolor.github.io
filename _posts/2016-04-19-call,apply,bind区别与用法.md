@@ -4,11 +4,6 @@ title: call,apply,bind区别与用法
 categories: js
 description: call,apply,bind区别与用法
 ---
- Arguments 对象
-JavaScript 函数有个内置的对象 arguments 对象。
-argument 对象包含了函数调用的参数数组。
-通过这种方式你可以很方便的找到最大的一个参数的值：
- 
  
 <pre>
  var a = {
