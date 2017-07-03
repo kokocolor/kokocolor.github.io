@@ -8,9 +8,9 @@ description: js Arguments 对象的使用
 JavaScript 函数有个内置的对象 arguments 对象。
 argument 对象包含了函数调用的参数数组。
 通过这种方式你可以很方便的找到最大的一个参数的值：
- <pre>
  
-<script>
+ 
+<pre>
 x = findMax(1, 123, 500, 115, 44, 88);
  
 function findMax() {
@@ -26,9 +26,9 @@ function findMax() {
     return max;
 }
 document.getElementById("demo").innerHTML = x;
-</script>
-
+ 
 </pre>
+ 
  查找最大的数。 
  500
  
