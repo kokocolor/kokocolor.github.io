@@ -9,16 +9,7 @@ JavaScript 函数有个内置的对象 arguments 对象。
 argument 对象包含了函数调用的参数数组。
 通过这种方式你可以很方便的找到最大的一个参数的值：
  <pre>
- <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>菜鸟教程(runoob.com)</title>
-</head>
-<body>
-
-<p>查找最大的数。</p>
-<p id="demo"></p>
+ 
 <script>
 x = findMax(1, 123, 500, 115, 44, 88);
  
