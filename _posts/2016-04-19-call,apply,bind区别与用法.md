@@ -30,7 +30,7 @@ a.fn(); //kokocolor
 
 虽然这种方法可以达到我们的目的，但是有时候我们不得不将这个对象保存到另外的一个变量中，那么就可以通过以下方法。
 
-1、call()
+<p style="color:#c3c;">1、call()</p>
 
 　　
 
@@ -59,7 +59,7 @@ var a = {
 var b = a.fn;
 b.call(a,1,2);
 
-2、apply()
+<p style="color:#c3c;">2、apply()</p>
 
 apply方法和call方法有些相似，它也可以改变this的指向
 
@@ -112,7 +112,7 @@ var a = {
 var b = a.fn;
 b.apply(null);
 
-3、bind()
+<p style="color:#c3c;">3、bind()</p>
 
 bind方法和call、apply方法有些不同，但是不管怎么说它们都可以用来改变this的指向。
 
