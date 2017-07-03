@@ -1,0 +1,43 @@
+---
+layout: post
+title: js Arguments 对象的使用
+categories: js
+description: js Arguments 对象的使用
+---
+ Arguments 对象
+JavaScript 函数有个内置的对象 arguments 对象。
+argument 对象包含了函数调用的参数数组。
+通过这种方式你可以很方便的找到最大的一个参数的值：
+ <pre>
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+
+<p>查找最大的数。</p>
+<p id="demo"></p>
+<script>
+x = findMax(1, 123, 500, 115, 44, 88);
+ 
+function findMax() {
+    var i, max = arguments[0];
+    
+    if(arguments.length < 2) return max;
+ 
+    for (i = 0; i < arguments.length; i++) {
+        if (arguments[i] > max) {
+            max = arguments[i];
+        }
+    }
+    return max;
+}
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</pre>
+ 查找最大的数。 
+ 500
+ 
